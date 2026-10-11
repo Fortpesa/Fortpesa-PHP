@@ -1,0 +1,18 @@
+{
+    "name": "your-vendor/fortpesa-php",
+    "description": "PHP client for the Fortpesa M-Pesa API: STK Push, transaction status, wallet balance and signed webhooks.",
+    "type": "library",
+    "keywords": ["mpesa", "m-pesa", "fortpesa", "stk-push", "kenya", "payments"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": { "Fortpesa\\": "src/" }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    }
+}
