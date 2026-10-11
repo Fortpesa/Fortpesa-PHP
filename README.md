@@ -11,7 +11,7 @@ PHP client for the [Fortpesa API](https://fortpesa.co.ke/index): **STK Push**, *
 ## Install
 
 ```bash
-composer require your-vendor/fortpesa-php
+composer require fortpesa/fortpesa-php
 ```
 
 No Composer (e.g. inside a WordPress/WooCommerce plugin)?
